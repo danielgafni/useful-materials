@@ -17,10 +17,12 @@ sudo usermod --shell /bin/zsh $USER
 Copy the configs to /home/$USER:
 
 ```bash
-cp -r configs/. ~
+cat configs/.zshrc >> $HOME/.zshrc
+cat configs/.vimrc >> $HOME/.vimrc
+cat configs/.tmux.conf >> $HOME/.tmux.conf
 ```
 
-Attention! This will overwrite the corresponding files in your home directory.
+This will append the configs to the corresponding files in your home directory.
 
 ### ZSH
 Install `antigen` - a fast `zsh` plugin manager:
