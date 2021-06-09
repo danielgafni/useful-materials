@@ -1,5 +1,7 @@
 # Useful Materials
 
+The following configs work best with the [Nord](https://www.nordtheme.com/) theme. Install it for your terminal to get the best results.
+
 ## CLI tools installation & configuration (automatic)
 1. Install `zsh`, `tmux` and `vim`. Make `zsh` the default shell (already the default shell on modern macOS versions):
 ```bash
