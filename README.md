@@ -1,8 +1,14 @@
 # Useful Materials
 
-## CLI tools installation & configuration
+## CLI tools installation & configuration (automatic)
+1. Install `zsh`, `tmux` and `vim`. Make `zsh` the default shell (already the default shell on modern macOS versions). 
+2. Run
+```bash
+./install.sh
+```
+3. Install the plugins specified in `~/.tmux.conf`. Start `tmux` and press `prefix` + I (capital i, as in **I**nstall) to fetch the plugin. `prefix` is ctrl+B by default.
+## CLI tools installation & configuration (manual)
 
-Install `zsh`, `tmux` and `vim`. Make `zsh` the default shell (already the default shell on modern macOS versions). 
 Copy the configs to /home/$USER:
 
 ```bash
