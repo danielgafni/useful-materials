@@ -1,7 +1,10 @@
 # Useful Materials
 
 ## CLI tools installation & configuration (automatic)
-1. Install `zsh`, `tmux` and `vim`. Make `zsh` the default shell (already the default shell on modern macOS versions). 
+1. Install `zsh`, `tmux` and `vim`. Make `zsh` the default shell (already the default shell on modern macOS versions):
+```bash
+sudo usermod --shell /bin/zsh $USER
+```
 2. Run
 ```bash
 ./install.sh
@@ -12,7 +15,7 @@
 Copy the configs to /home/$USER:
 
 ```bash
-cp -r configs ~
+cp -r configs/. ~
 ```
 
 Attention! This will overwrite the corresponding files in your home directory.
