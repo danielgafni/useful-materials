@@ -1,5 +1,7 @@
 # Useful Materials
 
+![preview](resources/screenshot.png)
+
 The following configs work best with the [Nord](https://www.nordtheme.com/) theme. Install it for your terminal to get the best results.
 
 ## CLI tools installation & configuration (automatic)
