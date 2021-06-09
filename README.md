@@ -28,7 +28,7 @@ Install `antigen` - a fast `zsh` plugin manager:
 git clone https://github.com/zsh-users/antigen.git ~/antigen
 ```
 
-Antigen will automatically install all the plugins specified in `~/.zshrd`.
+Antigen will automatically install all the plugins specified in `~/.zshrc`.
 
 ## Tmux
 1. Install `tmp` - the Tmux Plugin Manager:
@@ -45,3 +45,13 @@ tmux source ~/.tmux.conf
 The VIM configuration file (`~/.vimrc`) automatically installs `vim-plug` - a VIM plugin manager.
 
 1. Start `vim` and run the `:PlugInstall` command.
+
+## References
+0. [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+1. [Antigen](https://github.com/zsh-users/antigen)
+2. [tmux](https://github.com/tmux/tmux)
+3. [tpm](https://github.com/tmux-plugins/tpm)
+4. [vim](https://github.com/tmux-plugins/tpm)
+5. [vim-plug](https://github.com/junegunn/vim-plug)
+6. [awesome zsh plugins](https://github.com/unixorn/awesome-zsh-plugins#antigen)
+7. [awesome tmux](https://github.com/rothgar/awesome-tmux)

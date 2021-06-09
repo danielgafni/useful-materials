@@ -37,4 +37,3 @@ let NERDTreeShowHidden=1
 set number  " display line numbers on the left
 
 colorscheme nord
-
